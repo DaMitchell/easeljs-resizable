@@ -6,3 +6,7 @@
 # Dependency directory
 node_modules
 bower_components
+
+# Project Files
+.tmp
+build
