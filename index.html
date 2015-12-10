@@ -1,13 +1,20 @@
-{% extends "layouts/main.html" %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EaselJS Resizable Docs</title>
 
-{% block content %}
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+
+
 <canvas id="canvas"></canvas>
 
-<!-- build:js scripts/vendor.js -->
-<script src="../bower_components/EaselJS/lib/easeljs-0.8.2.combined.js"></script>
-<!-- endbuild -->
+<script src="scripts/vendor.js"></script>
 
-<script src="/dist/easeljs-resizable-{{ version }}.js"></script>
+<script src="/dist/easeljs-resizable-0.0.1.js"></script>
 
 <script>
     var canvasId = 'canvas';
@@ -34,4 +41,7 @@
 
     resize();
 </script>
-{% endblock %}
+
+
+</body>
+</html>
